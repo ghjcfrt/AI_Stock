@@ -22,7 +22,7 @@ dev-dependencies = [
 ]
 
 [tool.uv.sources]
-ta-lib = { path = "../../../Downloads/TA_Lib-0.4.32-cp313-cp313-win_amd64.whl" }
+ta-lib = { url = "https://github.com/cgohlke/talib-build/releases/download/v0.4.32/TA_Lib-0.4.32-cp312-cp312-win_amd64.whl" }
 
 [project.scripts]
 aistock = "aistock:main"
